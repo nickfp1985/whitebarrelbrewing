@@ -74,7 +74,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center py-5">
-            <h1 class="display-3">Our Mission:</h1>
+            <h1 class="display-4">Our Mission:</h1>
             <h3>
               Provide a constant variety of exceptional, hand-crafted beers in a
               casual setting where families, friends, and neighbors experience
@@ -253,9 +253,16 @@
             </form>
           </div>
           <div class="modal-footer">
-            <a class="btn btn-primary" onclick="validateForm()">Submit</a>
+            <button
+              class="btn btn-primary"
+              type="submit"
+              value="Send"
+              onclick="validateForm()"
+            >
+              Submit
+            </button>
           </div>
-          <div class="status"></div>
+          <div class="status" id="status"></div>
         </div>
       </div>
     </div>
